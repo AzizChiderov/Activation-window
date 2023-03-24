@@ -1,0 +1,88 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #594868 50%, #9ba297 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(180deg, #000000 0%, #2E54B6 100%);
+    color: white;
+}
+
+.container h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 31px;
+    margin-bottom: 25px;
+}
+
+.container input[type="text"] {
+    width: 200px;
+    height: 37px;
+    border-radius: 20px;
+    margin-left: 50px;
+    border: none;
+}
+.container .error-type {
+    color: red;
+    font-size: 8px;
+    margin-bottom: 27px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+.container .variant {
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.variant input[type="radio"] {
+    margin-right: 15px;
+}
+
+.container .variant:last-of-type {
+    margin-bottom: 0;
+}
+.container .error-pick {
+    color: red;
+    font-size: 8px;
+    margin-bottom: 27px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+.container button {
+    background-color: #FFD600;
+    text-transform: uppercase;
+    width: 200px;
+    height: 37px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 27px;
+}
+.act {
+    color: green;
+    font-size: 10px;
+    margin-bottom: 27px;
+    margin-left: 90px;
+    margin-top: 2px;
+}
